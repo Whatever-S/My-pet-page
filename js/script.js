@@ -34,7 +34,6 @@ likeBtn.addEventListener('click', (e)=>{
     likes++;
     if( likes === 1){
         document.querySelector('.btns').append(likeCount);
-        //likeCount.classList.add('activeBtn');
         likeCount.textContent = `${likes}`;
     } else{
         likeCount.textContent = `${likes}`;
